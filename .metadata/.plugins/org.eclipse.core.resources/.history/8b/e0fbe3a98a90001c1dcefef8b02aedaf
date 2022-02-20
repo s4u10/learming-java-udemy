@@ -1,0 +1,31 @@
+
+public class App {
+
+	public static void main(String[] args) {
+
+		Human tom = new Human();
+//		walker(tom);
+		
+		Robot wale = new Robot();
+//		walker(wale);
+		
+		walker( () -> System.out.println("Custom object walking..."));
+		
+	/*	walker(new Walkable() {
+
+			@Override
+			public void walk() {
+				System.out.println("Custom object walking...");
+				
+			}
+			
+		});
+		*/
+	}
+	
+	public static void walker(Walkable walkableEntitiy) {
+		walkableEntitiy.walk();
+	
+	}
+		
+}

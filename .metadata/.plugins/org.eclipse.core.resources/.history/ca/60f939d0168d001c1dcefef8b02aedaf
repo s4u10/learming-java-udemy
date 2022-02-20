@@ -1,0 +1,11 @@
+package com.s4u10.producerconsumer;
+
+public class Application {
+
+	public static void main(String[] args) {
+
+		
+
+	}
+
+}
